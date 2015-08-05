@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/JuniorTester.master" AutoEventWireup="true" CodeFile="TheoryTesting.master.cs" Inherits="Theory_Testing_TheoryTesting" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderSubMenuTop" Runat="Server">
+	<p class="sub2_top">Меню раздела:
+	    <a class="sub2_top" href="/Theory/Testing/Bugs.aspx">Баги</a>
+	    <a class="sub2_top" href="/Theory/Testing/Tester.aspx">Тестер (Тестировщик)</a>
+	    <a class="sub2_top" href="/Theory/Testing/TestCases.aspx">Test Cases</a>
+	    <a class="sub2_top" href="/Theory/Testing/Tests.aspx">Тесты</a>
+	    <a class="sub2_top" href="/Theory/Testing/Workplace.aspx">Рабочее место</a>
+	    <a class="sub2_top" href="/Theory/Testing/Process.aspx">Процесс тестирования</a>
+	    <a class="sub2_top" href="/Theory/Testing/Tr1Base.aspx">Трекинг.ЧастьI.Основы</a>
+	    <a class="sub2_top" href="/Theory/Testing/Tr2Krit.aspx">Трекинг.ЧастьII.Критерии</a>
+	</p>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderText" Runat="Server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderText" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderSubMenuBottom" Runat="Server">
+	<p class="sub2_top">Меню раздела:
+	    <a class="sub2_top" href="/Theory/Testing/Bugs.aspx">Баги</a>
+	    <a class="sub2_top" href="/Theory/Testing/Tester.aspx">Тестер (Тестировщик)</a>
+	    <a class="sub2_top" href="/Theory/Testing/TestCases.aspx">Test Cases</a>
+	    <a class="sub2_top" href="/Theory/Testing/Tests.aspx">Тесты</a>
+	    <a class="sub2_top" href="/Theory/Testing/Workplace.aspx">Рабочее место</a>
+	    <a class="sub2_top" href="/Theory/Testing/Process.aspx">Процесс тестирования</a>
+	    <a class="sub2_top" href="/Theory/Testing/Tr1Base.aspx">Трекинг.ЧастьI.Основы</a>
+	    <a class="sub2_top" href="/Theory/Testing/Tr2Krit.aspx">Трекинг.ЧастьII.Критерии</a>
+	</p>
+</asp:Content>
+

@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="JuniorTester.master.cs" Inherits="JuniorTester2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link href="/Styles/stls.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/JS/drop_down.js" language="javascript"></script>
+</head>
+<body>
+    <div align = "center">
+    <table class = "mainTable" cellpadding = "0" cellspacing = "0">
+        <tr class = "greenBorderTopRow">
+            <td class = "greenBorderTopLeftLeft">&nbsp;</td>
+            <td class = "greenBorderTopLeftRight">&nbsp;</td>
+            <td class = "greenBorderTopMenu">&nbsp;</td>
+            <td class = "greenBorderTopCenter">&nbsp;</td>
+            <td class = "greenBorderTopRightLeft">&nbsp;</td>
+            <td class = "greenBorderTopRightRight">&nbsp;</td>
+        </tr>
+        <tr class = "headRow">
+            <td class = "headLeftLeft">
+                &nbsp;</td>
+            <td class = "headLeftRight">
+                &nbsp;</td>                
+            <td class = "headSemiButton">
+                <img alt="" src="/Images/polknopki.png" /></td>
+            <td class = "headCenter">
+                &nbsp;</td>
+            <td class = "headRightLeft">
+                &nbsp;</td>                
+            <td class = "headRightRight">
+                &nbsp;</td>
+        </tr>
+        <tr class = "logoRow">
+            <td colspan = "6">
+                <img alt="Junior Tester" src="/Images/header.png" /></td>
+        </tr>
+        <tr>
+            <td class = "centerLeftLeft">
+                &nbsp;</td>
+            <td class = "centerLeftRight">
+                &nbsp;</td>                
+            <td class = "mainMenu">
+                          <ul class="menu" id="nav">
+                <li class="menu"><a class="menu" href="/Intro.aspx">обзор</a></li>
+                <li class="menu"><a class="menu" href="/Default.aspx">новости</a></li>
+                <li class="menu"><a class="menu" href="/Articles/Default.aspx">статьи</a></li>
+                <li class="menu"><a class="menu" href="/School/Default.aspx">школа</a></li>
+                <li class="menu"><a class="menu" href="/FAQ/Default.aspx">faq</a></li>
+                <li class="menu"><a class="menu" href="/Contacts/Default.aspx">контакты</a></li>
+             </ul>
+            <br/>
+            </td>
+            <td class = "mainText">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderSubMenuTop" runat="server">
+                </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderText" runat="server">
+                </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderSubMenuBottom" runat="server">
+                </asp:ContentPlaceHolder>                
+                 <br />
+                 <div class = "copyr" align = "center">&quot;© All rights reserved, 2001-2015&quot;</div>
+                &nbsp;</td>
+            <td class = "centerRightLeft">
+                &nbsp;</td>
+            <td class = "centerRightRight">
+                &nbsp;</td>            
+        </tr>
+        <tr class = "bottomRow">
+            <td class = "bottomLeftLeft">
+                &nbsp;</td>
+            <td class = "bottomLeftRight">
+                &nbsp;</td>
+            <td class = "bottomMenu">
+                &nbsp;</td>
+            <td class = "bottomCenter">
+                &nbsp;</td>
+            <td class = "bottomRightLeft">
+                &nbsp;</td>
+            <td class = "bottomRightRight">
+                &nbsp;</td>
+        </tr>
+    </table>
+       
+    </div>
+</body>
+</html>

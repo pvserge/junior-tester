@@ -1,0 +1,691 @@
+﻿body 
+{
+    background-color: #023536;
+    vertical-align : top;
+    font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 14pt;
+	font-family: Times, serif;
+	line-height: normal;
+	color: #FFFFE8;
+}
+
+a 	/* basic links */
+	{
+	text-decoration: underline ;
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 12pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	}
+
+    a:link	{ color: #D0CAB5 } /* color for basic links */
+    a:active    { color: #FFFFE8 } /* color for basic active links */
+    a:visited	{ color: #D0CAB5 } /* color for basic visited links */
+    a:hover	{ text-transform: none; color: #B8AF8F } /* color for basic "under mouse" links */
+
+a.menu 	/* menu links */
+   	{
+	text-decoration: underline ;
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 14pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	}
+
+    a.menu:link		{ color: #D0CAB5 } /* color for menu links */ 
+    a.menu:active	{ color: #FFFFE8 } /* color for menu active links */
+    a.menu:visited	{ color: #D0CAB5 } /* color for menu visited links */
+    a.menu:hover	{ text-transform: uppercase; color: #B8AF8F } /* setings for menu links "under mouse" */
+
+
+a.submenu /* sbmenu links */
+    {	
+	text-decoration: underline ;
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 14pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	}
+
+    a.submenu:link	{ color: #D0CAB5 } /* color for submenu links */
+    a.submenu:active	{ color: #FFFFE8 } /* color for submenu active links */
+    a.submenu:visited	{ color: #D0CAB5 } /* color for submenu visited links */
+    a.submenu:hover	{ text-transform: uppercase; color: #B8AF8F } /* color for submenu links "under mouse" */
+
+a.sub2_top /* sbmenu top links on each page*/
+        {
+	text-decoration: underline ;
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 10pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	text-align: center
+	}
+
+    a.sub2_top:link	{ color: #D0CAB5 } /* color for submenu links */
+    a.sub2_top:active	{ color: #FFFFE8 } /* color for submenu active links */
+    a.sub2_top:visited	{ color: #D0CAB5 } /* color for submenu visited links */
+    a.sub2_top:hover	{ text-transform: none; color: #B8AF8F } /* color for submenu links "under mouse" */
+
+
+	
+H1 	/* first level header for (name of the site) */
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: bold ;
+	font-size: 36pt ;
+	font-family: Arial, Helvetica, sans-serif ;
+	line-height: normal ;
+	color: #D0CAB5 ;
+	text-align: center	
+	}
+
+H2      /* second level header (name of the page) */
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: bold ;
+	font-size: 12pt ;
+	font-family: Arial, Helvetica, sans-serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	text-align: center
+	}
+
+H3	/* third level header (italic - for terms) */
+  	{
+	font-style: italic ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 12pt ;
+	font-family: Times, serif ;
+	line-height: normal 
+	}
+
+
+H4      /* fourth level header (for bold)  */
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: bold ;
+	font-size: 12pt ;
+	font-family: Times, serif ;
+	line-height: normal 
+	}
+
+H5   /* five level header (bold for article name)  */
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: bold ;
+	font-size: 14pt ;
+	font-family: Times, serif ;
+	line-height: normal 
+	}
+
+
+H6      /* header (name of the page) - normal, center */
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 12pt ;
+	font-family: Arial, Helvetica, sans-serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	text-align: center
+	}
+
+
+p.menu  /* settigs for menu paragraph */
+	{
+	text-indent: normal ;
+	line-height: 14pt
+	}
+
+
+p.submenu /* settigs for submenu paragraph */
+	{
+	text-indent: normal ;
+	line-height: 14pt ;
+	text-align: center
+	}
+
+
+p.sub2_top /* settigs for submenu top links paragraph on each page */
+	{
+	text-indent: normal ;
+	line-height: 10pt ;
+	font-size: 10pt ;
+	text-align: justify
+	}
+
+
+p.text  /* settigs for main text paragraph */
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 12pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	text-align: justify
+	}
+
+p.warning /* settigs for warnings (bold, justify) paragraph */
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: bold ;
+	font-size: 12pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	text-align: justify
+	}
+
+p.signature /* settigs for signature (bold, right) paragraph */
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: bold ;
+	font-size: 12pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	text-align: right
+	}
+
+p.copyr /* settigs for copyright (italic, center) paragraph */
+	{
+	font-style: italic ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 10pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	text-align: center
+	}
+
+p.count /* settigs for counters paragraph */
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 10pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	text-align: center
+	}	
+
+p.center /* settigs for centerlevelling paragraph */
+        {
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 10pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	text-align: center
+	}	
+
+
+p.name /* settigs for article name (center) */
+        {
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: bold ;
+	font-size: 14pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	text-align: center
+	}	
+
+ul.disc
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 12pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	list-style-type: disc ;
+	color: #FFFFE8 ;
+	text-align: justify;
+	}
+
+
+ol.decimal
+	{
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 12pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	list-style-type: decimal ;
+	color: #FFFFE8 ;
+	text-align: justify
+	}
+
+.mainTable
+{
+    width: 900px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.greenBorderTopRow
+{
+    height: 10px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;        
+}
+
+.greenBorderTopLeftLeft
+{
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;    
+}
+
+.greenBorderTopLeftRight
+{
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    border-top : 0px;
+    border-left : 0px;
+    border-bottom : solid 10px #237762;
+    border-right: 0px;
+}
+
+.greenBorderTopMenu
+{
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-top : 0px;
+    border-left : 0px;
+    border-bottom : solid 10px #237762;
+    border-right: 0px;
+}
+
+.greenBorderTopCenter
+{
+    width: 680px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;    
+    border-top : 0px;
+    border-left : 0px;
+    border-bottom : solid 10px #237762;
+    border-right: 0px;
+}
+
+.greenBorderTopRightLeft
+{
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-top : 0px;
+    border-left : 0px;
+    border-bottom : solid 10px #237762;
+    border-right: 0px;
+}
+
+.greenBorderTopRightRight
+{
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;    
+}
+
+.headRow
+{
+    height: 24px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.headLeftLeft
+{
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.headLeftRight
+{
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color : #237762;
+}
+
+.headSemiButton
+{
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+    border : 0px;
+/*    border-top : solid 10px #237762;
+    border-left : solid 10px #237762;
+    border-bottom : 0px;
+    border-right: 0px;*/
+}
+
+.headCenter
+{
+    background-image : url(/Images/fon.png);
+    width: 680px;
+    padding: 0px;
+    margin: 0px;
+    border-top : solid 3px #3e3625;
+    border-left : 0px;
+    border-bottom : 0px;
+    border-right: solid 3px #3e3625;
+}
+
+.logoRow
+{
+    height: 154px;
+    width : 900px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.headRightLeft
+{
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color : #237762;
+}
+
+.headRightRight
+{
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.centerLeftLeft
+{
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.centerLeftRight
+{
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color : #237762;
+}
+
+
+.centerRightLeft
+{
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color : #237762;
+}
+
+.centerRightRight
+{
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.mainMenu
+{
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+    border-top : 0px;
+    border-left : 0px;
+    border-bottom : 0px;
+    border-right: solid 3px #237762;
+    text-align : left;
+    vertical-align : top;
+}
+
+.mainText
+{
+    background-image: url(/Images/fon.png);
+    width: 680px;
+    padding: 5px;
+    margin: 0px;
+    border-top: 0px;
+    border-left: solid 3px #3e3625;
+    border-bottom: solid 3px #3e3625;
+    border-right: solid 3px #3e3625;
+    vertical-align: top;
+}
+
+.mainTextTop
+{
+    height : 1px;
+    width: 705px;
+    padding: 0px;
+    margin: 0px;
+    border-top : solid 10px #237762;
+    border-left : 0px;
+    border-bottom : 0px;
+    border-right: 0px;
+}
+
+.bottomRow
+{
+    height: 10px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;        
+}
+
+.bottomLeftLeft
+{
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;    
+}
+
+.bottomLeftRight
+{
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-top : solid 10px #237762;
+    border-left : 0px;
+    border-bottom : 0px;
+    border-right: 0px;    
+}
+
+.bottomMenu
+{
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-top : solid 10px #237762;
+    border-left : 0px;
+    border-bottom : 0px;
+    border-right: 0px;    
+}
+
+.bottomCenter
+{
+    width: 680px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-top : solid 10px #237762;
+    border-left : 0px;
+    border-bottom : 0px;
+    border-right: 0px;    
+    
+}
+
+.bottomRightLeft
+{
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    border-top : solid 10px #237762;
+    border-left : 0px;
+    border-bottom : 0px;
+    border-right: 0px;    
+}
+
+.bottomRightRight
+{
+    width: 25px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.copyr
+	{
+	font-style: italic ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 10pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	color: #FFFFE8 ;
+	vertical-align: middle ;
+	text-align: center ;
+	}
+	
+.line
+{
+    height: 10px;
+    width: 680px;
+    color: #237762;
+    background-color: #237762;
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+    border-top : 0px;
+    border-left : 0px;
+    border-bottom : solid 3px #3e3625;
+    border-right: 0px;
+    visibility: visible;
+    clear:both;
+}	
+	
+ul.menu {
+	border-bottom: #ccc 0px solid;
+	padding-bottom: 0px;
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 0px;
+	width: 150px;
+	padding-right: 0px;
+	list-style-image: none;
+	padding-top: 0px
+}
+
+ul.menu li.menu {
+	position: relative
+}
+
+li.menu ul.menu {
+	position: absolute;
+	display: none;
+	top: 0px; left: 149px
+}
+
+ul.menu li.menu a.menu {
+/*	background: #000000;*/
+	background-image: url(/Images/glossyback_green.gif);
+	text-decoration: none;
+	font-style: normal ;
+	font-variant: normal ;
+	font-weight: normal ;
+	font-size: 14pt ;
+	font-family: Times, serif ;
+	line-height: normal ;
+	border-bottom: 0px;
+	border-left: #ccc 0px solid;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: block;
+	color: #D0CAB5;
+	border-top: #ccc 0px solid;
+	border-right: #ccc 0px solid;
+	padding-top: 5px
+}
+
+* HTML ul.menu li.menu {
+	float: left; height: 1%
+}
+
+* HTML ul.menu li.menu a.menu {
+	height: 1%
+}
+
+ul.menu li.menu a.menu:hover {
+	background-image: url(/Images/highlight_green.gif);
+	color: #B8AF8F;
+	text-transform: uppercase
+}
+
+li.menu ul.menu li.menu a.menu {
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px
+}
+
+li.menu:hover ul.menu {
+	display: block
+}
+
+li.menu.over ul.menu {
+	display: block
+}
+
+li.menu:hover ul.menu li.menu ul.menu, li.over ul.menu li.menu ul.menu { display: none; } /* ������� ������� 3-�� ������ */ 
+
+li.menu ul.menu li.menu:hover ul.menu, li.menu ul.menu li.over ul.menu { display: block; } /* �������� ������� 3-�� ������ */

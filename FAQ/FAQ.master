@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/JuniorTester.master" AutoEventWireup="true" CodeFile="FAQ.master.cs" Inherits="FAQ_FAQ" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <meta name="description" content="Вопросы и ответы для тестера." />
+    <meta name="keywords" content="тестирование в вопросах и ответах, чаво, часто задаваемые вопросы, тест, бета-тестирование, програмное обеспечение, программы, тестер, бета-тестер, тестинг,софт,software test, бесплатно, начинающему бетатестеру, документация, стандарты, литература, ссылки, ресурсы для тестировщика" />
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderSubMenuTop" Runat="Server">
+    <p class="sub2_top">
+        <a class="sub2_top" href="/FAQ/Default.aspx">Назад в FAQ</a>
+    </p>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderText" Runat="Server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderText" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderSubMenuBottom" Runat="Server">
+    <p class="sub2_top">
+        <a class="sub2_top" href="/FAQ/Default.aspx">Назад в FAQ</a>
+    </p>
+</asp:Content>
+

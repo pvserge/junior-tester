@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/JuniorTester.master" AutoEventWireup="true" CodeFile="TheoryLiterature.master.cs" Inherits="Theory_Literature_TheoryLiterature" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderSubMenuTop" Runat="Server">
+		<p class="sub2_top">Меню раздела:
+		    <a class="sub2_top" href="/Theory/Literature/Intro.aspx">Введение</a>
+		    <a class="sub2_top" href="/Theory/Literature/Rus.aspx">Русскоязычная</a>
+		    <a class="sub2_top" href="/Theory/Literature/Eng.aspx">Англоязычная</a>
+		</p>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderText" Runat="Server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderText" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderSubMenuBottom" Runat="Server">
+		<p class="sub2_top">Меню раздела:
+		    <a class="sub2_top" href="/Theory/Literature/Intro.aspx">Введение</a>
+		    <a class="sub2_top" href="/Theory/Literature/Rus.aspx">Русскоязычная</a>
+		    <a class="sub2_top" href="/Theory/Literature/Eng.aspx">Англоязычная</a>
+		</p>
+</asp:Content>
+

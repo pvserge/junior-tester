@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/JuniorTester.master" AutoEventWireup="true" CodeFile="Links.master.cs" Inherits="Links_Links" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderSubMenuTop" Runat="Server">
+	<p class="sub2_top">Меню раздела:
+	    <a class="sub2_top" href="/Links/Intro.aspx">Введение</a>
+	    <a class="sub2_top" href="/Links/Catalogies.aspx">Каталоги, ресурсы и форумы</a>
+	    <a class="sub2_top" href="/Links/Articles.aspx">Книги, статьи и методики</a>
+	    <a class="sub2_top" href="/Links/Utilities.aspx">Инструменты</a>
+	    <a class="sub2_top" href="/Links/Developers.aspx">Фирмы и школы</a>
+	    <a class="sub2_top" href="/Links/Works.aspx">Работа</a>
+	    <a class="sub2_top" href="/Links/Standards.aspx">Стандарты</a>
+	    <a class="sub2_top" href="/Links/Stores.aspx">Сетевые книжные магазины</a>
+	</p>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderText" Runat="Server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderText" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderSubMenuBottom" Runat="Server">
+	<p class="sub2_top">Меню раздела:
+	    <a class="sub2_top" href="/Links/Intro.aspx">Введение</a>
+	    <a class="sub2_top" href="/Links/Catalogies.aspx">Каталоги, ресурсы и форумы</a>
+	    <a class="sub2_top" href="/Links/Articles.aspx">Книги, статьи и методики</a>
+	    <a class="sub2_top" href="/Links/Utilities.aspx">Инструменты</a>
+	    <a class="sub2_top" href="/Links/Developers.aspx">Фирмы и школы</a>
+	    <a class="sub2_top" href="/Links/Works.aspx">Работа</a>
+	    <a class="sub2_top" href="/Links/Standards.aspx">Стандарты</a>
+	    <a class="sub2_top" href="/Links/Stores.aspx">Сетевые книжные магазины</a>
+	</p>
+</asp:Content>
+

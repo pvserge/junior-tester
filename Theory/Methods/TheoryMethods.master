@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/JuniorTester.master" AutoEventWireup="true" CodeFile="TheoryMethods.master.cs" Inherits="Theory_Methods_TheoryMethods" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderSubMenuTop" Runat="Server">
+	<p class="sub2_top">Меню раздела:
+	    <a class="sub2_top" href="/Theory/Methods/Hand.aspx">Ручное тестирование</a>
+	    <a class="sub2_top" href="/Theory/Methods/Auto.aspx">Автоматизированное тестирование</a>
+	    <a class="sub2_top" href="/Theory/Methods/SoftAuto.aspx">Классификация ПО</a>
+	</p>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderText" Runat="Server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderText" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderSubMenuBottom" Runat="Server">
+	<p class="sub2_top">Меню раздела:
+	    <a class="sub2_top" href="/Theory/Methods/Hand.aspx">Ручное тестирование</a>
+	    <a class="sub2_top" href="/Theory/Methods/Auto.aspx">Автоматизированное тестирование</a>
+	    <a class="sub2_top" href="/Theory/Methods/SoftAuto.aspx">Классификация ПО</a>
+    </p>
+</asp:Content>
+
